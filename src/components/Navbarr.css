@@ -1,0 +1,136 @@
+/* Nav.css */
+
+.navbar {
+    background-color: #262947;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-right: 5vw;
+    padding-left: 5vw;
+  }
+  
+  .left-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .right-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .right-nav .mobile-menu-button {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .right-nav .menu {
+    display: flex;
+  }
+  
+  .right-nav .menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+  
+  .names{
+    padding-top: 5px;
+  }
+  .right-nav .menu.open {
+    display: block;
+  
+  }
+  /* Button */
+
+  /* Button styling */
+.signup {
+    display: inline-block;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    padding: 2px 20px;
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  /* Hover effect */
+  .signup:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  /* Click effect */
+  .signup:active {
+    transform: scale(0.95);
+  }
+  
+  .sign{
+    display: inline-block;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    padding: 2px 20px;
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  /* Responsiveness - Media query */
+  @media (max-width: 768px) {
+    .right-nav .mobile-menu-button {
+      display: block;
+    }
+
+    .sign{
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    padding: 2px 20px;
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+      position: absolute;
+      left: 0;
+      width: 100%;
+    }
+    .sign:hover{
+      background-color: #79d1aa;
+    transition: background-color 0.8s, transform 0.2s;
+      
+      /* transform: scale(1); */
+     
+    }
+
+    .left-navs {
+       
+         position:relative;
+         top:-15vw;
+         
+    }
+  
+    .right-nav .menu {
+      display: none;
+    }
+}
+@media (min-width: 769px) {
+    .right-nav .menu.open {
+        display:contents;
+      }
+
+      
+}

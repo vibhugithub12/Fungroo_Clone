@@ -1,0 +1,74 @@
+/* SkillsComponent.css */
+.fullPage {
+    background-color: rgb(60, 96, 88);
+    padding-top: 4vw;
+    color: rgb(228, 226, 212);
+    display: flex;
+    flex-direction: column;
+    
+    padding-left: 20%;
+   
+    @media (min-width: 768px) {
+      flex-direction: row;
+      
+    }
+  }
+
+  .img{
+    max-width: 100%;
+    /* height: 80px; */
+   
+  }
+  @media (max-width: 768px) {
+    .skill img{
+      max-width: 30%;
+    }
+    .skill{
+    min-height: 210px;
+    }
+    .fullPage{
+      padding-left: 35%;
+    }
+    
+  }
+
+  h4{
+    color: rgb(199, 195, 180);
+  }
+  
+
+  .skill {
+    /* width: calc(30% - 20px); */
+    width:360px;
+    height: 30vw;
+    margin: 10px;
+    margin-left: 0;
+    
+    padding: 10px;
+    
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    @media (max-width: 768px) {
+      flex-direction: row;
+      width: 40%;
+      
+    }
+  }
+  
+  .skill i {
+    font-size: 48px;
+    color: #0074d9;
+  }
+  
+  .skill h3 {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  .skill p {
+    font-size: 16px;
+    color: #584646;
+  }
+  
