@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Fungroo_Clone/static/css/main.0d6e5d20.css",
+    "main.js": "/Fungroo_Clone/static/js/main.b0f770ad.js",
+    "index.html": "/Fungroo_Clone/index.html",
+    "main.0d6e5d20.css.map": "/Fungroo_Clone/static/css/main.0d6e5d20.css.map",
+    "main.b0f770ad.js.map": "/Fungroo_Clone/static/js/main.b0f770ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d6e5d20.css",
+    "static/js/main.b0f770ad.js"
+  ]
+}
