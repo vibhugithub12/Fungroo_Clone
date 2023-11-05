@@ -1,0 +1,64 @@
+/* BoxComponent.css */
+.box-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;   
+}
+
+.box {
+  
+    background-color: #f0f0f0;
+    flex: 1;
+    /* padding: 20px; */
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 0;
+    border-radius: 10px;
+  }
+  
+  .inner-box {
+
+    background-color: #3f4d29;
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    height: 100%;
+  }
+  
+  .trust{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 0;
+    padding-bottom: 5px;
+   
+    /* margin-bottom: x; */
+    /* background-color: rgb(241, 241, 241); */
+    background-color: white;
+    color: rgb(68, 63, 12);
+
+  }
+  .trust h1{
+    padding-top: 0%;
+    font-size: 30px;
+    font-weight: 900;
+    
+
+  }
+  .headh2{
+    font-size: 36px;
+    background-color:white;
+  }
+  h2 {
+    font-size: 18px;
+    color: #333;
+  }
+
+  .logos{
+    width: 50%;
+  }
+  
+  @media (max-width: 768px) {
+    .box-container {
+      flex-direction: column;
+    }
+  }
+  
