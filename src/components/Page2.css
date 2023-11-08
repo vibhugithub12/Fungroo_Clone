@@ -42,15 +42,7 @@
     width: 20vw;   
     font-weight: 400;
   }
-  /* .skills-container2{
-    display: flex;
-    justify-content:space-evenly;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    
-  } */
+
 
 
   .fullPage img{
@@ -59,6 +51,22 @@
   }
 
   
+  @media screen and (max-width:800px){
+
+  .fullPage{
+    text-align: start;
+  }
+  
+  h3{
+    width: 50px;
+    display: flex;
+    text-align: start;
+  }
+
+  h4{
+    text-align: start;
+  }
+  }   
   
 
 
