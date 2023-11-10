@@ -33,7 +33,7 @@ function Nav() {
           <a className="names" href="#"><h3>Teen</h3></a>
           <a className="names" href="#"><h3>Company</h3></a>
           <a className="names" href="#"><h3>Parent</h3></a>
-          <button className={sign}><h4>Company Login</h4></button>
+          <button className="btnComp"><h3>Company Login</h3></button>
         </div>
       </div>
     </nav>
