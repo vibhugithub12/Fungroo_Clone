@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Fungroo_Clone/static/css/main.2fcb13a2.css",
+    "main.css": "/Fungroo_Clone/static/css/main.e126e33d.css",
     "main.js": "/Fungroo_Clone/static/js/main.886acac5.js",
     "index.html": "/Fungroo_Clone/index.html",
-    "main.2fcb13a2.css.map": "/Fungroo_Clone/static/css/main.2fcb13a2.css.map",
+    "main.e126e33d.css.map": "/Fungroo_Clone/static/css/main.e126e33d.css.map",
     "main.886acac5.js.map": "/Fungroo_Clone/static/js/main.886acac5.js.map"
   },
   "entrypoints": [
-    "static/css/main.2fcb13a2.css",
+    "static/css/main.e126e33d.css",
     "static/js/main.886acac5.js"
   ]
 }
