@@ -13,7 +13,7 @@
     }
   }
 
-  
+   
   h1{
     font-size: 5.5vw;
   }
@@ -37,15 +37,13 @@
 
   }
   
-  .image-container {
-    @media (min-width: 768px) {
-        padding-right: 10vw;
-      flex: 1;
+
+    @media (max-width: 768px) {
+      .image-container img{
+       width: 100%;
+
+      }
     }
   
-    img {
-      max-width: 100%;
-      height: auto;
-    }
-  }
+   
   
